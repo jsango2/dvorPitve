@@ -13,7 +13,7 @@ import {
 } from "./style.js";
 // import HeroVideo from "../../video/kraciVideo.mp4";
 import Image from "next/image";
-import Up from "../../images/Contact/bg.png";
+import Up from "../../images/contact/bg.png";
 
 import { useInView } from "react-intersection-observer";
 import Button from "../Button/index.js";
