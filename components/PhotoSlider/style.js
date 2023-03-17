@@ -5,19 +5,25 @@ import styled from "styled-components";
 // import { HeroWrap } from "./style.js"
 
 export const HeroWrap = styled.div`
-  position: absolute;
+  position: relative;
   z-index: 11;
-  height: 800px;
+  height: 950px;
   width: 100%;
-  bottom: 120px;
+  /* bottom: 120px; */
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
+  .slick-list {
+    height: 850px;
+  }
+  .slick-dots {
+    bottom: 55px;
+  }
   .wrapLoaderNext {
     position: absolute;
     z-index: 20;
     top: 47%;
-    left: 100px;
+    right: 100px;
     cursor: pointer;
   }
   .loaderNext {
@@ -34,7 +40,7 @@ export const HeroWrap = styled.div`
     position: absolute;
     z-index: 20;
     top: 47%;
-    right: 100px;
+    left: 100px;
     cursor: pointer;
   }
   .loaderPrev {
@@ -51,6 +57,9 @@ export const HeroWrap = styled.div`
     top: 19px;
     left: 19px;
     opacity: 0.7;
+  }
+  .photoSlider {
+    width: 100% !important ;
   }
 
   /* Safari */
@@ -78,28 +87,17 @@ export const HeroWrap = styled.div`
 `;
 export const WrapPhoto = styled.div`
   position: relative;
-  height: 695px;
-  width: 500px;
-
+  /* height: 900px; */
+  height: 600px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: green;
-  @media only screen and (max-width: 1050px) {
-  }
-  @media only screen and (max-width: 420px) {
-  }
-`;
+  padding-top: 56%;
 
-export const WrapPhoto2 = styled.div`
-  position: relative;
-  height: 695px;
-  width: 500px;
+  /* height: 500px !important;
+  object-fit: contain; */
 
-  display: flex;
-  flex-direction: column;
-  overflow: hidden;
-  background-color: blue;
   @media only screen and (max-width: 1050px) {
   }
   @media only screen and (max-width: 420px) {

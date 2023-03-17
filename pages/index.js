@@ -13,6 +13,11 @@ import Objekti from "../components/ObjektiKartice/Objekti";
 import Amenities from "../components/Amenities/Amenities";
 import PopularDestinations from "../components/PopularDestinations/PopularDestinations";
 import PopulareBeaches from "../components/PopularBeaches/PopularBeaches";
+import PhotoSlider from "../components/PhotoSlider/photoSlider";
+import Planina from "../components/Planina";
+import OurHome from "../components/OurHome";
+import VideoAerial from "../components/VideoAerial";
+import Map from "../components/Map";
 // function Profile() {
 //   if (error) return <div>failed to load</div>;
 //   if (!data) return <div>loading...</div>;
@@ -21,7 +26,6 @@ import PopulareBeaches from "../components/PopularBeaches/PopularBeaches";
 
 function Index() {
   const { locale, locales, asPath } = useRouter();
-
   return (
     <Layout>
       <Head>
@@ -63,13 +67,17 @@ function Index() {
 
       {/* <Grid /> */}
       <About />
-
+      <PhotoSlider />
       <Objekti />
       <Amenities />
+      <Planina />
+      <OurHome />
+      <VideoAerial />
       <PopularDestinations />
       <PopulareBeaches />
-      <Marina />
-      <Sights />
+      <Map />
+      {/* <Marina />
+      <Sights /> */}
       <Footer />
     </Layout>
   );

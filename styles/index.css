@@ -659,7 +659,7 @@ select {
   right: 0;
   left: 0;
   bottom: 0;
-  height: 100vh;
+  height: 100%;
 }
 .mapboxgl-canvas {
   width: 86vw;

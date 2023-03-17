@@ -20,6 +20,58 @@ export const HeroWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  .slick-dots {
+    top: 9px;
+  }
+  .wrapLoaderNext {
+    position: absolute;
+    z-index: 20;
+    top: 43%;
+    right: -66px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    color: black;
+  }
+  .loaderNext {
+    border: 2px solid #f3f3f349;
+    border-radius: 50%;
+    border-top: 2px solid #ffffffb4;
+
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+  }
+  .slick-list {
+    z-index: 20;
+  }
+  .wrapLoaderPrev {
+    position: absolute;
+    z-index: 20;
+    top: 43%;
+    left: -66px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    color: black;
+  }
+  .loaderPrev {
+    border: 2px solid #f3f3f349;
+    border-radius: 50%;
+    border-top: 2px solid #ffffffb4;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: spin 6s linear infinite;
+    animation: spin 6s linear infinite;
+  }
+  .arrow {
+    position: absolute;
+    top: 19px;
+    left: 19px;
+    opacity: 1;
+  }
+
   @media only screen and (max-width: 600px) {
     padding-top: 73px;
   }
@@ -29,15 +81,25 @@ export const HeroWrap = styled.div`
 
 export const Container = styled.div`
   position: relative;
-  height: auto;
-  width: 90%;
+  height: 800px;
+  width: auto;
   max-width: 1400px;
+  /* min-width: 1360px; */
 
-  min-width: 1360px;
-  display: flex;
-  margin: 0 auto;
-  justify-content: space-between;
-
+  /* display: flex; */
+  /* margin: 0 auto; */
+  /* justify-content: space-between;
+  align-items: flex-start; */
+  /* overflow: scroll; */
+  @media only screen and (max-width: 1050px) {
+  }
+`;
+export const WrapArrow = styled.div`
+  position: absolute;
+  height: auto;
+  right: 0;
+  top: 60px;
+  left: 80%;
   @media only screen and (max-width: 1050px) {
   }
 `;

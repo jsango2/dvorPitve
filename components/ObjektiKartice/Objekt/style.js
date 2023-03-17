@@ -13,6 +13,7 @@ export const WrapObjekt = styled.div`
   overflow: hidden;
   ul {
     padding-left: 20px;
+    padding-right: 60px;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: 400;
@@ -70,7 +71,7 @@ export const Text = styled.p`
   /* tamnoplava */
 
   color: #303145;
-  height: 245px;
+  height: 205px;
   @media only screen and (max-width: 1050px) {
   }
   @media only screen and (max-width: 450px) {
@@ -133,9 +134,28 @@ export const WrapButton = styled.div`
 
 export const Line = styled.div`
   height: 1px;
-  width: 303px;
+  width: 333px;
   background-color: #a55c3d;
   margin: 20px 0;
+  @media only screen and (max-width: 1050px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
+`;
+
+export const WrapGalleryLink = styled.div`
+  position: absolute;
+  height: 53px;
+  width: 100%;
+  cursor: pointer;
+  background: rgba(217, 217, 217, 0.22);
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #303145;
+  font-size: 15px;
+
   @media only screen and (max-width: 1050px) {
   }
   @media only screen and (max-width: 450px) {

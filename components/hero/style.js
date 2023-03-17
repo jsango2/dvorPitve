@@ -22,6 +22,21 @@ export const HeroWrap = styled.div`
   @media only screen and (max-width: 420px) {
   }
 `;
+
+export const Overlay = styled.div`
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.2);
+
+  z-index: 1;
+  @media only screen and (max-width: 1050px) {
+    /* height: 97vh;
+    padding-left: 0; */
+  }
+  @media only screen and (max-width: 420px) {
+  }
+`;
 export const Linija = styled.div`
   position: absolute;
   z-index: 20;
@@ -40,11 +55,21 @@ export const WrapText = styled.div`
   z-index: 20;
   width: 474px;
   height: auto;
-  margin-top: 290px;
+  margin-top: 190px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  @media only screen and (max-width: 1050px) {
+  }
+  @media only screen and (max-width: 420px) {
+  }
+`;
+export const WrapImage = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
   @media only screen and (max-width: 1050px) {
   }
   @media only screen and (max-width: 420px) {
@@ -80,46 +105,5 @@ export const SubTitle = styled.p`
   @media only screen and (max-width: 600px) {
   }
   @media only screen and (max-width: 420px) {
-  }
-`;
-
-export const Button = styled.div`
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 180px;
-  height: 44px;
-  cursor: pointer;
-  /* SUNRISE / White */
-
-  /* Medium Drop */
-  margin-top: 30px;
-  /* box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08); */
-  border: 1px solid white;
-  border-radius: 6px;
-  font-family: "Cartograph CF";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 142.5%;
-  /* identical to box height, or 26px */
-
-  text-align: center;
-
-  /* SUNRISE/Sunray */
-
-  color: #f5faff;
-  /* &:hover {
-    -webkit-box-shadow: 5px 5px 9px 1px #48849c;
-    box-shadow: 5px 5px 9px 1px #48849c;
-  } */
-  a {
-    text-decoration: none;
-    color: #035865;
-  }
-  @media only screen and (max-width: 1050px) {
-  }
-  @media only screen and (max-width: 450px) {
   }
 `;

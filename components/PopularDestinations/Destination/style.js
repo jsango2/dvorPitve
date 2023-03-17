@@ -4,7 +4,7 @@ import styled from "styled-components";
 
 // import { HeroWrap } from "./style.js"
 
-export const HeroWrap = styled.div`
+export const HeroWrap = styled.a`
   position: relative;
   height: auto;
   width: 326px;
@@ -18,6 +18,11 @@ export const HeroWrap = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  margin: 0 auto;
+  cursor: pointer;
+
+  text-decoration: none;
+
   @media only screen and (max-width: 600px) {
     padding-top: 73px;
   }
@@ -30,7 +35,7 @@ export const WrapImage = styled.div`
   width: 326px;
   background: #cdcdcd;
   border-radius: 17px 17px 0px 0px;
-
+  overflow: hidden;
   @media only screen and (max-width: 1050px) {
   }
   @media only screen and (max-width: 450px) {
@@ -62,6 +67,7 @@ export const Title = styled.h3`
 
   color: #303145;
   margin: 0px 0 15px 0;
+
   @media only screen and (max-width: 1050px) {
   }
   @media only screen and (max-width: 450px) {

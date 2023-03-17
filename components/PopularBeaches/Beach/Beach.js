@@ -7,7 +7,10 @@ import Image from "next/image";
 const Beach = ({ photo, title, text }) => {
   return (
     <HeroWrap>
-      <WrapImage></WrapImage>
+      <WrapImage>
+        {" "}
+        <Image src={photo} alt="beach photo" layout="fill" objectFit="cover" />
+      </WrapImage>
       <Line />
       <Title>{title}</Title>
       <Text>{text}</Text>

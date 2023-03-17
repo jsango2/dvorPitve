@@ -19,9 +19,9 @@ export const NavbarWrap = styled.div`
 `;
 export const LogoWrap = styled.div`
   position: relative;
-  width: 170px;
-  min-width: 170px;
-  height: 170px;
+  width: 101px;
+  min-width: 101px;
+  height: 101px;
   z-index: 20;
   cursor: pointer;
   background-color: #303145;
@@ -34,8 +34,11 @@ export const LogoWrap = styled.div`
   transition: all 2s ease-in-out;
   transform: ${(props) =>
     props.inView ? `translate(0%,0%)` : `translate(0,-100%)`};
-  -webkit-box-shadow: 0px 0px 29px -2px #000000;
-  box-shadow: 0px 0px 9px -2px #000000;
+  border-radius: 50%;
+  padding: 20px;
+
+  /* -webkit-box-shadow: 0px 0px 29px -2px #6a6868; */
+  /* box-shadow: 0px 0px 9px -2px #6a6868; */
   @media screen and (max-width: 1051px) {
     top: 80px;
     left: 25%;
@@ -130,8 +133,29 @@ export const SingleLink = styled.div`
     cursor: pointer;
     font-family: "Civane-NorMed";
   }
-  a:hover {
-    color: #a55c3d;
+
+  .hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: white;
+  }
+
+  .hover-underline-animation:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+
+  .hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
   }
 
   @media screen and (max-width: 768px) {

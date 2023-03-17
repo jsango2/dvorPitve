@@ -4,10 +4,18 @@ import { HeroWrap, WrapImage, Title, Text, Line } from "./style.js";
 // import HeroVideo from "../../video/kraciVideo.mp4";
 import Image from "next/image";
 
-const Destination = ({ photo, title, text }) => {
+const Destination = ({ photo, title, text, link }) => {
   return (
-    <HeroWrap>
-      <WrapImage></WrapImage>
+    <HeroWrap href={link} target="_blank">
+      <WrapImage>
+        {" "}
+        <Image
+          src={photo}
+          alt="destination photo"
+          layout="fill"
+          objectFit="cover"
+        />
+      </WrapImage>
       <Line />
       <Title>{title}</Title>
       <Text>{text}</Text>

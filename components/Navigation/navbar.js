@@ -44,17 +44,19 @@ const Navbar = () => {
       </Hamburger>
       <LogoWrap isOpen={isOpen} inView={inView}>
         <Image
-          src="/pitveNeg.svg"
+          src="/logo.svg"
           alt="logo"
-          layout="fill"
-          // width={500} automatically provided
-          // height={500} automatically provided
+          layout="fixed"
+          width={80}
+          height={80}
         />
       </LogoWrap>
       <LinkWrap>
         {Links.map((e, index) => (
           <SingleLink key={index}>
-            <AnchorLink href={e.anchor}>{e.veza}</AnchorLink>
+            <AnchorLink href={e.anchor} className="hover-underline-animation">
+              {e.veza}
+            </AnchorLink>
           </SingleLink>
         ))}
 
