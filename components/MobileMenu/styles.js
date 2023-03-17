@@ -14,7 +14,6 @@ export const WrapMobileMenu = styled.div`
   justify-content: space-around;
   align-items: center;
   padding: 100px 0 60px 0;
-  /* width: ${(props) => props.width}; */
   transform: ${(props) =>
     props.isOpen ? `translate(0, 0px)` : `translate(500px, 0)`};
   transition: all 0.5s ease-in-out;
@@ -25,8 +24,6 @@ export const WrapMobileMenu = styled.div`
     #1e7ca4 100%
   );
   @media screen and (max-width: 768px) {
-    /* order: 1;
-    margin-bottom: 1rem; */
   }
 `;
 export const SingleLink = styled.div`
@@ -43,8 +40,6 @@ export const SingleLink = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    /* order: 1;
-    margin-bottom: 1rem; */
   }
 `;
 export const CloseIcon = styled.div`
@@ -71,7 +66,6 @@ export const LineX1 = styled.div`
   background-color: white;
   transform: rotate(45deg);
   @media screen and (max-width: 1000px) {
-    /* display: none; */
   }
 `;
 export const LineX2 = styled.div`
@@ -81,6 +75,5 @@ export const LineX2 = styled.div`
   background-color: white;
   transform: rotate(315deg) translate(6px, -7px);
   @media screen and (max-width: 1000px) {
-    /* display: none; */
   }
 `;

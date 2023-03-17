@@ -65,9 +65,6 @@ export const Divider = styled.div`
 `;
 export const WrapBg = styled.div`
   position: absolute;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: 100%;
   top: 0;
@@ -80,9 +77,6 @@ export const WrapBg = styled.div`
 
 export const Bottom = styled.div`
   position: absolute;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: 142px;
   bottom: 0;
@@ -98,9 +92,6 @@ export const Bottom = styled.div`
 
 export const Upper = styled.div`
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   display: flex;
   width: 1000px;
   margin: 0 auto;
@@ -111,9 +102,6 @@ export const Upper = styled.div`
 `;
 export const Mid = styled.div`
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   padding: 0 30px;
   margin: 0 30px;
   border-left-style: solid;

@@ -37,8 +37,6 @@ export const LogoWrap = styled.div`
   border-radius: 50%;
   padding: 20px;
 
-  /* -webkit-box-shadow: 0px 0px 29px -2px #6a6868; */
-  /* box-shadow: 0px 0px 9px -2px #6a6868; */
   @media screen and (max-width: 1051px) {
     top: 80px;
     left: 25%;
@@ -50,7 +48,6 @@ export const LinkWrap = styled.div`
   position: relative;
   width: 490px;
   min-width: 490px;
-  /* height: 40px; */
   display: flex;
   justify-content: space-between;
 
@@ -96,7 +93,6 @@ export const LineX1 = styled.div`
   background-color: #32bde3;
   transform: rotate(45deg);
   @media screen and (max-width: 1000px) {
-    /* display: none; */
   }
 `;
 export const LineX2 = styled.div`
@@ -106,7 +102,6 @@ export const LineX2 = styled.div`
   background-color: #32bde3;
   transform: rotate(315deg) translate(6px, -7px);
   @media screen and (max-width: 1000px) {
-    /* display: none; */
   }
 `;
 export const Line = styled.div`
@@ -114,19 +109,16 @@ export const Line = styled.div`
   width: 23px;
   background-color: white;
   @media screen and (max-width: 1000px) {
-    /* display: none; */
   }
 `;
 export const SingleLink = styled.div`
   position: relative;
   margin: 0 10px;
-  /* text-transform: uppercase; */
   text-decoration: none;
   color: #aea8b2;
   margin: 0 0;
   cursor: pointer;
   a {
-    /* text-transform: uppercase; */
     text-decoration: none;
     color: white;
     margin: 0 0;
@@ -159,7 +151,5 @@ export const SingleLink = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    /* order: 1;
-    margin-bottom: 1rem; */
   }
 `;

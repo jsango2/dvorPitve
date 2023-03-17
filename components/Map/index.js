@@ -13,9 +13,7 @@ const Map = () => {
   const [lat, setLat] = useState(43.15);
   const [zoom, setZoom] = useState(11.7);
   const { ref, inView, entry } = useInView({
-    /* Optional options */
     threshold: 0,
-    // trigger inView function only once
     triggerOnce: false,
   });
 
@@ -38,9 +36,6 @@ const Map = () => {
   });
   return (
     <Wrap>
-      {/* <div>
-        Longitude: {lng} | Latitude: {lat} | Zoom: {zoom}
-      </div> */}
       <div ref={mapContainer} className="map-container" />
     </Wrap>
   );

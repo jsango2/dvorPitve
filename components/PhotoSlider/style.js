@@ -9,10 +9,8 @@ export const HeroWrap = styled.div`
   z-index: 11;
   height: 950px;
   width: 100%;
-  /* bottom: 120px; */
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   .slick-list {
     height: 850px;
   }
@@ -62,7 +60,6 @@ export const HeroWrap = styled.div`
     width: 100% !important ;
   }
 
-  /* Safari */
   @-webkit-keyframes spin {
     0% {
       -webkit-transform: rotate(0deg);
@@ -87,16 +84,12 @@ export const HeroWrap = styled.div`
 `;
 export const WrapPhoto = styled.div`
   position: relative;
-  /* height: 900px; */
   height: 600px;
   width: 100%;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   padding-top: 56%;
-
-  /* height: 500px !important;
-  object-fit: contain; */
 
   @media only screen and (max-width: 1050px) {
   }

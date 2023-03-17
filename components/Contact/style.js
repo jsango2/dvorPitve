@@ -6,9 +6,6 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: 435px;
   padding-top: 80px;
@@ -19,9 +16,6 @@ export const Wrap = styled.div`
 `;
 export const WrapBg = styled.div`
   position: absolute;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: 100%;
   top: 0;
@@ -32,9 +26,6 @@ export const WrapBg = styled.div`
 `;
 export const Overlay = styled.div`
   position: absolute;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: 100%;
   background: #303145;
@@ -69,8 +60,6 @@ export const Name = styled.h3`
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
-  /* identical to box height */
-
   text-align: center;
 
   color: #ffffff;

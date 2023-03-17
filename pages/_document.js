@@ -19,7 +19,6 @@ export default class MyDocument extends Document {
             rel="stylesheet"
           ></link>
         </Head>
-        {/* <title>Your site title</title> */}
         {this.props.styleTags}
         <body>
           <Main />

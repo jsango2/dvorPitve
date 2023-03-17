@@ -27,9 +27,7 @@ const Navbar = () => {
     setIsOpen(!isOpen);
   };
   const { ref, inView } = useInView({
-    /* Optional options */
     threshold: 0.1,
-    // trigger inView function only once
     triggerOnce: true,
   });
 
@@ -59,13 +57,6 @@ const Navbar = () => {
             </AnchorLink>
           </SingleLink>
         ))}
-
-        {/* <SingleLink>
-          <a href="">{t.home}</a>
-        </SingleLink>
-        <SingleLink>
-          <a href="">{t.contact}</a>
-        </SingleLink> */}
       </LinkWrap>
     </NavbarWrap>
   );

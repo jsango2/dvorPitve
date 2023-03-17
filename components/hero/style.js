@@ -16,8 +16,6 @@ export const HeroWrap = styled.div`
   overflow: hidden;
   z-index: 0;
   @media only screen and (max-width: 1050px) {
-    /* height: 97vh;
-    padding-left: 0; */
   }
   @media only screen and (max-width: 420px) {
   }
@@ -31,8 +29,6 @@ export const Overlay = styled.div`
 
   z-index: 1;
   @media only screen and (max-width: 1050px) {
-    /* height: 97vh;
-    padding-left: 0; */
   }
   @media only screen and (max-width: 420px) {
   }
@@ -81,7 +77,6 @@ export const Title = styled.h1`
   font-weight: 400;
   font-size: 64px;
   line-height: 140.02%;
-  /* identical to box height, or 90px */
 
   letter-spacing: -0.01em;
 

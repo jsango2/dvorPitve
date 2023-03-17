@@ -9,7 +9,6 @@ export const AboutWrap = styled.div`
   height: auto;
   width: 100%;
   display: flex;
-  /* flex-direction: column; */
   align-items: flex-start;
   justify-content: flex-start;
   padding-left: 210px;
@@ -19,7 +18,6 @@ export const AboutWrap = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapBg = styled.div`
@@ -31,7 +29,6 @@ export const WrapBg = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapText = styled.div`
@@ -47,10 +44,8 @@ export const WrapText = styled.div`
   margin-left: 276px;
 
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImages = styled.div`
@@ -64,10 +59,8 @@ export const WrapImages = styled.div`
   z-index: 0;
   margin-left: 100px;
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapSocial = styled.div`
@@ -87,10 +80,8 @@ export const WrapSocial = styled.div`
   font-weight: 400;
   font-size: 15px;
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapIcon = styled.div`
@@ -101,10 +92,8 @@ export const WrapIcon = styled.div`
   justify-content: flex-start;
 
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Overlay = styled.div`
@@ -117,10 +106,8 @@ export const Overlay = styled.div`
   background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
   transform: rotate(-180deg);
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Image1 = styled.div`
@@ -139,10 +126,8 @@ export const Image1 = styled.div`
     object-fit: cover;
   }
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Image2 = styled.div`
@@ -162,10 +147,8 @@ export const Image2 = styled.div`
     object-fit: cover;
   }
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Image4 = styled.div`
@@ -185,10 +168,8 @@ export const Image4 = styled.div`
     object-fit: cover;
   }
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Image3 = styled.div`
@@ -208,10 +189,8 @@ export const Image3 = styled.div`
   }
 
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Title = styled.h1`
@@ -223,10 +202,8 @@ export const Title = styled.h1`
   line-height: 55px;
   color: #303145;
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Text = styled.p`
@@ -237,14 +214,10 @@ export const Text = styled.p`
   font-size: 15px;
   line-height: 21px;
 
-  /* tamnoplava */
-
   color: #303145;
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Links = styled.div`
@@ -255,7 +228,6 @@ export const Links = styled.div`
   justify-content: space-between;
   align-items: center;
   margin-top: 35px;
-  /* transition: all 1s ease-in-out; */
   .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -280,10 +252,8 @@ export const Links = styled.div`
     transform-origin: bottom left;
   }
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Link = styled.a`
@@ -294,18 +264,13 @@ export const Link = styled.a`
   font-size: 15px;
   line-height: 21px;
   margin: 0;
-  /* tamnoplava */
   display: flex;
   justify-content: center;
   align-items: center;
   color: #303145;
   height: 100%;
   cursor: pointer;
-  /* transition: all 0.3s ease-in-out;
-  top: 0; */
-  /* &:hover {
-    transform: translate(0, -2px);
-  } */
+
   .hover-underline-animation {
     display: inline-block;
     position: relative;
@@ -330,10 +295,8 @@ export const Link = styled.a`
     transform-origin: bottom left;
   }
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Line = styled.div`
@@ -346,10 +309,8 @@ export const Line = styled.div`
 
   left: ${(props) => (props.inView ? ` -276px;` : `-576px;`)};
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 
@@ -360,9 +321,7 @@ export const Vertical = styled.div`
   background-color: #303145;
   bottom: 1px;
   @media only screen and (max-width: 1050px) {
-    /* padding-left: 0; */
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;

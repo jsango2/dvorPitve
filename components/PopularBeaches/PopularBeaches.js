@@ -48,9 +48,7 @@ const PopulareBeaches = () => {
   return (
     <HeroWrap>
       <Title>Popular beaches</Title>
-      {/* <WrapArrow>
-        <VscArrowRight style={{ color: "#303145", fontSize: "30px" }} />
-      </WrapArrow> */}
+
       <Container>
         <Slider {...settings}>
           {beachesList.map((lovre) => (

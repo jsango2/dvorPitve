@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-// import heroPhoto from "../../images/hero.png"
-
-// import { HeroWrap } from "./style.js"
-
 export const HeroWrap = styled.a`
   position: relative;
   height: auto;
@@ -11,9 +7,6 @@ export const HeroWrap = styled.a`
 
   padding-top: 50px;
   padding-bottom: 70px;
-  /* padding-left: 88px; */
-
-  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -61,9 +54,6 @@ export const Title = styled.h3`
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  /* identical to box height */
-
-  /* tamnoplava */
 
   color: #303145;
   margin: 0px 0 15px 0;
@@ -79,8 +69,6 @@ export const Text = styled.p`
   font-weight: 400;
   font-size: 15px;
   line-height: 21px;
-
-  /* tamnoplava */
 
   color: #303145;
   width: 90%;

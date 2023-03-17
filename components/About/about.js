@@ -38,14 +38,11 @@ import PhotoSlider from "../PhotoSlider/photoSlider.js";
 const About = () => {
   // const size = useWindowSize();
   const { ref, inView, entry } = useInView({
-    /* Optional options */
     threshold: 0,
-    // trigger inView function only once
     triggerOnce: false,
   });
 
   const [ref2, percentage] = useScrollPercentage({
-    /* Optional options */
     threshold: 0,
   });
   return (
@@ -158,8 +155,6 @@ const About = () => {
           <Image src={img3} layout="fill" alt="image3" />
         </Image3>
       </WrapImages>
-      {/* <Overlay /> */}
-      {/* <PhotoSlider /> */}
     </AboutWrap>
   );
 };

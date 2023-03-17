@@ -1,10 +1,7 @@
 * {
   box-sizing: border-box;
 }
-/* body .slick-prev::before,
-body .slick-next::before {
-  display: none;
-} */
+
 @font-face {
   font-family: "Civane-NorMed";
   src: url("../assets/fonts/civane/Civane-Norm-Medium.otf");
@@ -24,7 +21,6 @@ body .slick-next::before {
   font-style: normal;
 }
 body {
-  /* background-color: ; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   margin: 0 !important;
@@ -43,7 +39,6 @@ html {
   user-select: none;
 }
 
-/* ------FONTS------ */
 .photoSlider {
   width: 85% !important;
 }
@@ -127,18 +122,14 @@ p {
   line-height: 120%;
 }
 .blast-from-the-past {
-  /* font-family: Komika Axis; */
   font-style: normal;
   font-weight: normal;
   font-size: 50px;
   line-height: 120%;
-  /* or 60px */
   text-align: center;
-  /* Tamno plava pozadina */
   color: #191b26;
   transform: rotate(-3.8deg);
 }
-/* ------------------------ */
 .headroom-wrapper {
   display: flex;
   height: 65px;
@@ -196,8 +187,6 @@ header {
   color: #ffffff;
 }
 input[type="date"]::-webkit-calendar-picker-indicator {
-  /* display: none; */
-  /* webkit-appearance: none; */
   opacity: 0.3;
   width: 15px;
   padding: 0px;
@@ -205,57 +194,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   margin-top: 10px;
 }
 
-/* slick-prev:before,
-.slick-next:before {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; 
-  animation: spin 2s linear infinite;
-} */
-/* .wrapLoaderNext {
-  position: absolute;
-  z-index: 20;
-  top: 47%;
-  left: 100px;
-  cursor: pointer;
-}
-.loaderNext {
-  border: 2px solid #f3f3f349;
-  border-radius: 50%;
-  border-top: 2px solid #ffffffb4;
-
-  width: 60px;
-  height: 60px;
-  -webkit-animation: spin 6s linear infinite;
-  animation: spin 6s linear infinite;
-}
-.wrapLoaderPrev {
-  position: absolute;
-  z-index: 20;
-  top: 47%;
-  right: 100px;
-  cursor: pointer;
-}
-.loaderPrev {
-  border: 2px solid #f3f3f349;
-  border-radius: 50%;
-  border-top: 2px solid #ffffffb4;
-  width: 60px;
-  height: 60px;
-  -webkit-animation: spin 6s linear infinite;
-  animation: spin 6s linear infinite;
-}
-.arrow {
-  position: absolute;
-  top: 19px;
-  left: 19px;
-  opacity: 0.7;
-}
-
-/* Safari */
 @-webkit-keyframes spin {
   0% {
     -webkit-transform: rotate(0deg);
@@ -300,7 +238,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 }
 .submitButton {
   background: #f9ff00 !important;
-  /* Medium Drop */
   box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08) !important;
   border-radius: 30px !important;
   display: flex;
@@ -308,7 +245,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   justify-content: center;
   z-index: 2;
   cursor: pointer;
-  /* margin: 0; */
   font-style: normal;
   font-weight: 700;
   font-size: 21px;
@@ -398,11 +334,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   align-items: center;
 }
 .zrakeParallax {
-  /* position: relative; */
-  /* width: 800px;
-  height: 800px;
-  left: 500px !important;
-  top: -750px !important; */
   opacity: 0.1;
   z-index: 2;
 }
@@ -424,24 +355,8 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .hamburgerMenu {
   margin-right: 30px;
 }
-/* .menuWrap {
-  position: relative;
-  height: 400px;
-  transform: translate(50%, 0px);
-  top: 55px;
-  z-index: 10;
-  right: 50%;
-  width: 80%;
-  border-radius: 0 0 39px 39px;
-  background: #191b26;
-  transition: all 0.5s;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
+
 .closedMenu {
-  /* transform: translateY(-100%); */
   transition: all 0.3s ease-in-out;
 }
 .openMenu {
@@ -454,7 +369,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 .menu {
   height: 400px;
   position: absolute;
-  /* transform: translateY(-100%); */
   transform: translate(50%, -100%);
   top: 55px;
   z-index: 1;
@@ -485,7 +399,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* width: 100%; */
 }
 .formular input {
   background: #ffffff;
@@ -558,7 +471,6 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   background-repeat: no-repeat;
   background-size: cover;
   transition: all 0.8s ease;
-  /* display: none; */
 }
 .placeholder {
   position: absolute;
@@ -598,18 +510,13 @@ input[type="date"]::-webkit-calendar-picker-indicator {
   width: 300px !important;
   height: 300px !important;
 }
-/* .formCalc input {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  width: 230px;
-} */
+
 .formCalc {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 10px auto 0 auto;
-  /* background-color: #1d1d2e8f; */
 
-  /* padding: 40px; */
   border-radius: 39px;
 }
 .formCalc input,
@@ -652,9 +559,7 @@ select {
 }
 .map-container {
   position: relative !important;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
+
   top: 0;
   right: 0;
   left: 0;
@@ -665,12 +570,7 @@ select {
   width: 86vw;
   height: 80vh;
 }
-/* .mapWrapper {
-  position: fixed;
-  width: 1152px;
 
-  height: auto;
-} */
 .sidebar {
   background-color: rgba(35, 55, 75, 0.9);
   color: #fff;
@@ -687,26 +587,7 @@ select {
   width: 650px;
   text-align: center;
 }
-/* .wrapBoxResultCalc {
-  background-color: #0b243865;
-  border-radius: 39px;
-  padding: 30px;
-  height: 400px;
-  width: 800px;
-} */
-/* .dateclass {
-  width: 100%;
-}
 
-.dateclass.placeholderclass::before {
-  width: 100%;
-  content: attr(placeholder);
-}
-
-.dateclass.placeholderclass:hover::before {
-  width: 0%;
-  content: "";
-} */
 .xyz {
   display: flex;
   flex-direction: column;
@@ -721,15 +602,6 @@ select {
   transition: width 0.7s, height 0.7s, opacity 1.2s;
 }
 .xyzText {
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 30px;
-  background: rgb(85, 46, 190);
-  border-radius: 50%;
-  height: 0px;
-  width: 0px; */
   font-size: 40px;
   font-weight: 900;
   display: flex;
@@ -759,7 +631,6 @@ select {
   height: 350px;
   width: 350px;
   opacity: 1;
-  /* transition: all 0.7s ease-in-out; */
 }
 .tempoCircleIspis {
   background-color: #91292f;
@@ -865,7 +736,6 @@ select {
   padding-bottom: 100px;
   padding-bottom: 83px;
   padding-top: 80px;
-  /* background-color: rgba(36, 34, 105, 0.26); */
   width: 90%;
   margin: 0 auto;
   border-radius: 39px;
@@ -885,11 +755,8 @@ select {
   font-weight: 500;
   font-size: 16px;
   line-height: 145%;
-  /* or 23px */
 
   letter-spacing: 0.5px;
-
-  /* SUNRISE / White */
 
   color: #ffffff;
 }
@@ -904,7 +771,6 @@ select {
   padding-bottom: 100px;
   padding-bottom: 20px;
   padding-top: 80px;
-  /* background-color: rgba(36, 34, 105, 0.26); */
   width: 90%;
   margin: 0 auto 50px auto;
   border-radius: 39px;
@@ -913,19 +779,13 @@ select {
   margin: 10px 0;
   position: relative;
 }
-/* .zrakeParallaxRaspored {
-  width: 100%;
-} */
+
 .ispisCalcZoneColor {
   position: relative;
   font-size: 20px;
   font-weight: 900;
-  /* display: flex; */
   text-align: center;
-  /* justify-content: center;
-  align-items: center; */
   width: 50vw;
-  /* height: 58px; */
   background-color: #91292f;
   margin-bottom: 5px;
   border-radius: 8px;
@@ -967,18 +827,7 @@ select {
 .ispisCalcZoneColor:nth-child(4) {
   background-color: #c85c5c;
 }
-/* .ispisCalcZoneColorAutoHeight:nth-child(1) {
-  background-color: #b2ea70;
-}
-.ispisCalcZoneColorAutoHeight:nth-child(2) {
-  background-color: #fbd148;
-}
-.ispisCalcZoneColorAutoHeight:nth-child(3) {
-  background-color: #f9975d;
-}
-.ispisCalcZoneColorAutoHeight:nth-child(4) {
-  background-color: #c85c5c;
-} */
+
 .textIspodZone {
   margin-top: 20px;
   height: auto;
@@ -1041,19 +890,13 @@ select {
   .ispisCalcZone {
     font-size: 22px;
     font-weight: 900;
-    /* display: flex; */
     text-align: center;
-    /* justify-content: center;
-    align-items: center; */
     width: 300px;
   }
   .ispisCalcZoneColor {
     font-size: 20px;
     font-weight: 900;
-    /* display: flex; */
     text-align: center;
-    /* justify-content: center;
-    align-items: center; */
     width: 90vw;
     height: 58px;
     background-color: #91292f;
@@ -1061,21 +904,14 @@ select {
     border-radius: 8px;
     transition: all 0.2s ease-in-out;
   }
-  /* .height58 {
-    height: 58px;
-    transition: all 0.3s linear;
-  } */
+
   .heightAuto {
     height: 250px;
-    /* transition: all 0.3s linear; */
   }
   .ispisCalcZoneColorAutoHeight {
     font-size: 20px;
     font-weight: 900;
-    /* display: flex; */
     text-align: center;
-    /* justify-content: center;
-    align-items: center; */
     width: 90vw;
     height: auto;
     background-color: #91292f;
@@ -1090,18 +926,6 @@ select {
     display: none;
   }
 
-  /* .ispisCalcZoneColor:nth-child(1) {
-    background-color: #b2ea70;
-  }
-  .ispisCalcZoneColor:nth-child(2) {
-    background-color: #fbd148;
-  }
-  .ispisCalcZoneColor:nth-child(3) {
-    background-color: #f9975d;
-  }
-  .ispisCalcZoneColor:nth-child(4) {
-    background-color: #c85c5c;
-  } */
   .naslovKalkulatora {
     width: 90%;
   }
@@ -1146,18 +970,13 @@ select {
     margin-top: 30px;
     justify-content: space-between;
   }
-  /* .formCalc {
-    flex-direction: column-reverse;
-  } */
+
   .navLinks {
     display: none;
   }
 
   .zrakeParallax {
-    /* position: relative; */
-
     left: 0px !important;
-    /* top: -750px !important; */
     opacity: 0.1;
     z-index: 2;
   }
@@ -1221,14 +1040,7 @@ select {
     right: -35px;
     top: -430px;
   }
-  /* .navBar {
-      width:100%;
-      height: 65px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      margin: 0 auto;
-    } */
+
   .navLinks {
     width: 330px;
     padding: 0 30px 0 30px;

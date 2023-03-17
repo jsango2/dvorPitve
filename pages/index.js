@@ -19,11 +19,6 @@ import OurHome from "../components/OurHome";
 import VideoAerial from "../components/VideoAerial";
 import Map from "../components/Map";
 import Contact from "../components/Contact";
-// function Profile() {
-//   if (error) return <div>failed to load</div>;
-//   if (!data) return <div>loading...</div>;
-//   return <div>hello {data.name}!</div>;
-// }
 
 function Index() {
   const { locale, locales, asPath } = useRouter();
@@ -66,7 +61,6 @@ function Index() {
 
       <Hero />
 
-      {/* <Grid /> */}
       <About />
       <PhotoSlider />
       <Objekti />
@@ -78,8 +72,6 @@ function Index() {
       <PopulareBeaches />
       <Map />
       <Contact />
-      {/* <Marina />
-      <Sights /> */}
       <Footer />
     </Layout>
   );

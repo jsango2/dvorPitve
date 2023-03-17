@@ -20,8 +20,6 @@ export const WrapObjekt = styled.div`
     font-size: 16px;
     line-height: 20px;
 
-    /* narancasta */
-
     color: #a55c3d;
   }
 
@@ -52,8 +50,6 @@ export const Title = styled.h3`
   font-size: 24px;
   line-height: 30px;
 
-  /* tamnoplava */
-
   color: #303145;
   margin: 45px 0 15px 0;
   @media only screen and (max-width: 1050px) {
@@ -67,8 +63,6 @@ export const Text = styled.p`
   font-weight: 400;
   font-size: 15px;
   line-height: 21px;
-
-  /* tamnoplava */
 
   color: #303145;
   height: 205px;
@@ -87,12 +81,10 @@ export const Button = styled.div`
   font-weight: 700;
   font-size: 18px;
   line-height: 142.5%;
-  /* identical to box height, or 26px */
   background-color: #ffffff;
 
   text-align: center;
   z-index: 10;
-  /* narancasta */
   display: flex;
   justify-content: center;
   align-items: center;

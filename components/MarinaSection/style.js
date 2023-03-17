@@ -57,10 +57,8 @@ export const Button = styled.a`
   width: 395px;
   height: 53px;
   margin: 70px auto 0 auto;
-  /* TAMNO PLAVA */
 
   border: 2px solid #0d3255;
-  /* Medium Drop */
 
   filter: drop-shadow(0px 14px 23px rgba(28, 37, 44, 0.08));
   border-radius: 7px;
@@ -72,11 +70,9 @@ export const Button = styled.a`
   font-weight: 600;
   font-size: 21px;
   line-height: 120%;
-  /* or 25px */
   background-color: transparent;
   text-align: center;
   text-decoration: none;
-  /* TAMNO PLAVA */
   cursor: pointer;
   color: #0d3255;
   @media only screen and (max-width: 600px) {
@@ -99,9 +95,6 @@ export const TextWrap = styled.div`
     font-weight: 700;
     font-size: 55px;
     line-height: 120%;
-    //     /* identical to box height, or 66px */
-
-    //     /* TAMNO PLAVA */
 
     color: #ffffff;
   }
@@ -116,9 +109,6 @@ export const Title = styled.h2`
   font-weight: 700;
   font-size: 55px;
   line-height: 120%;
-  /* or 66px */
-
-  /* TAMNO PLAVA */
 
   color: #0d3255;
   margin-bottom: 80px;
@@ -149,12 +139,6 @@ export const Text = styled.p`
   font-weight: 500;
   font-size: 16px;
   line-height: 120%;
-  /* or 19px */
-
-  /* Gray 2 */
-
-  /* TAMNO PLAVA */
-
   color: #0d3255;
 
   @media only screen and (max-width: 1050px) {

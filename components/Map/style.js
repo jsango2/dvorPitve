@@ -6,9 +6,6 @@ import styled from "styled-components";
 
 export const Wrap = styled.div`
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: 512px;
   background-color: darkblue;

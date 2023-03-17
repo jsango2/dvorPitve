@@ -60,9 +60,7 @@ const Example = () => {
 
 const OurHome = () => {
   const { ref, inView } = useInView({
-    /* Optional options */
     threshold: 0.1,
-    // trigger inView function only once
     triggerOnce: true,
   });
 
@@ -74,15 +72,6 @@ const OurHome = () => {
       <WrapBg>
         <Image src={Bg} alt="background" layout="fill" objectFit="cover" />
       </WrapBg>{" "}
-      {/* <Lottie animationData={animacijaJson} interactivity={interactivity} /> */}
-      {/* <LottiePlayer
-        // 2. set the reference for the player
-        id="firstLottie"
-        controls
-        mode="normal"
-        src={animacijaJson}
-        style={{ width: "320px" }}
-      ></LottiePlayer> */}
       <div style={{ marginTop: "100px" }}>{inView && <Example />}</div>
       <Title>Our home are Pitve</Title>
       <WrapText>

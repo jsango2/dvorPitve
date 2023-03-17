@@ -49,9 +49,7 @@ const PhotoSlider = () => {
   };
   const size = useWindowSize();
   const { ref, inView } = useInView({
-    /* Optional options */
     threshold: 0.1,
-    // trigger inView function only once
     triggerOnce: true,
   });
 

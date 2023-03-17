@@ -22,9 +22,7 @@ import Button from "../Button/index.js";
 
 const Hero = () => {
   const { ref, inView } = useInView({
-    /* Optional options */
     threshold: 0.3,
-    // trigger inView function only once
     triggerOnce: true,
   });
 
@@ -62,7 +60,6 @@ const Hero = () => {
       >
         <Image src={heroBg} alt="Logo" layout="fill" />
       </WrapImage>
-      {/* <Linija /> */}
       <Navbar />
       <WrapText>
         <Title>Dvor Pitve</Title>
@@ -72,7 +69,6 @@ const Hero = () => {
           Pitve.
         </SubTitle>
         <Button text="BOOK NOW" />
-        {/* <Button>BOOK NOW</Button> */}
       </WrapText>
     </HeroWrap>
   );

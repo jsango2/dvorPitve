@@ -6,25 +6,16 @@ import styled from "styled-components";
 
 export const OurHomeWrap = styled.div`
   position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 100%;
   height: auto;
-
-  /* SUNRISE / White */
 
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 142.5%;
-  /* identical to box height, or 26px */
   overflow: hidden;
   text-align: center;
   padding-bottom: 50px;
-  /* SUNRISE/Sunray */
-
-  /* color: #f5faff; */
 
   @media only screen and (max-width: 1050px) {
   }
@@ -40,7 +31,6 @@ export const WrapBg = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 
@@ -53,7 +43,6 @@ export const WrapOtok = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Title = styled.h1`
@@ -65,14 +54,10 @@ export const Title = styled.h1`
   line-height: 55px;
   text-align: center;
 
-  /* tamnoplava */
-  margin-top: 20px;
-
   color: #303145;
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const SubTitle = styled.h3`
@@ -83,14 +68,12 @@ export const SubTitle = styled.h3`
   font-size: 24px;
   line-height: 30px;
   text-align: left;
-  /* tamnoplava */
   margin-top: 50px;
   margin-bottom: 25px;
   color: #303145;
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapText = styled.div`
@@ -103,7 +86,6 @@ export const WrapText = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 
@@ -113,7 +95,6 @@ export const Left = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapLeftText = styled.div`
@@ -124,7 +105,6 @@ export const WrapLeftText = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapRightText = styled.div`
@@ -134,7 +114,6 @@ export const WrapRightText = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapTextImage = styled.div`
@@ -145,7 +124,6 @@ export const WrapTextImage = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Text = styled.p`
@@ -156,8 +134,6 @@ export const Text = styled.p`
   font-size: 15px;
   line-height: 21px;
 
-  /* tamnoplava */
-
   color: #303145;
   width: 100%;
 
@@ -165,7 +141,6 @@ export const Text = styled.p`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const TextRight = styled.p`
@@ -176,8 +151,6 @@ export const TextRight = styled.p`
   font-size: 15px;
   line-height: 21px;
 
-  /* tamnoplava */
-
   color: #303145;
   width: 50%;
 
@@ -185,7 +158,6 @@ export const TextRight = styled.p`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg1 = styled.div`
@@ -195,7 +167,6 @@ export const WrapImg1 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg2 = styled.div`
@@ -205,7 +176,6 @@ export const WrapImg2 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg3 = styled.div`
@@ -215,7 +185,6 @@ export const WrapImg3 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg4 = styled.div`
@@ -227,7 +196,6 @@ export const WrapImg4 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg6 = styled.div`
@@ -238,7 +206,6 @@ export const WrapImg6 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg5 = styled.div`
@@ -249,7 +216,6 @@ export const WrapImg5 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const WrapImg7 = styled.div`
@@ -260,7 +226,6 @@ export const WrapImg7 = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Right = styled.div`
@@ -270,7 +235,6 @@ export const Right = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Bottom = styled.div`
@@ -283,6 +247,5 @@ export const Bottom = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;

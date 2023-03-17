@@ -9,13 +9,8 @@ export const HeroWrap = styled.div`
   height: auto;
   width: 100%;
 
-  /* overflow: hidden; */
-
   padding-top: 123px;
-  /* padding-bottom: 70px; */
-  /* padding-left: 88px; */
 
-  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,7 +144,6 @@ export const WrapBg = styled.div`
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
-    /* padding: 65px 0 20px 0; */
   }
 `;
 export const Title = styled.h3`
@@ -160,8 +154,6 @@ export const Title = styled.h3`
   font-size: 44px;
   line-height: 55px;
   text-align: center;
-
-  /* tamnoplava */
 
   color: #303145;
   margin: 0px 0 15px 0;

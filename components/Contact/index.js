@@ -20,9 +20,7 @@ import Button from "../Button/index.js";
 
 const Contact = () => {
   const { ref, inView, entry } = useInView({
-    /* Optional options */
     threshold: 0,
-    // trigger inView function only once
     triggerOnce: false,
   });
   return (

@@ -54,7 +54,6 @@ export const Overlay = styled.div`
 export const Div1 = styled.div`
   grid-area: 1 / 1 / 7 / 5;
   position: relative;
-  /* padding-left: 38px; */
   &:hover ${Overlay} {
     background: rgba(255, 255, 255, 0);
   }

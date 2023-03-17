@@ -52,8 +52,6 @@ const Objekt = ({
       <Text>{text}</Text>
       <WrapButton>
         <Button text="BOOK NOW" version="dark" />
-        {/* <Button>BOOK NOW</Button> */}
-        {/* <ButtonBack /> */}
       </WrapButton>
       <Line />
       <ul>

@@ -107,7 +107,6 @@ export const Title = styled.h1`
   line-height: 55px;
   text-align: center;
   margin: 90px auto 30px auto;
-  /* tamnoplava */
 
   color: #303145;
   @media only screen and (max-width: 800px) {
@@ -121,7 +120,6 @@ export const SubTitle = styled.h3`
   font-weight: 400;
   font-size: 24px;
   line-height: 30px;
-  /* tamnoplava */
 
   color: #303145;
   @media only screen and (max-width: 800px) {
@@ -134,7 +132,6 @@ export const Text = styled.p`
   font-weight: 100;
   font-size: 15px;
   line-height: 21px;
-  /* tamnoplava */
 
   color: #303145;
   ul {

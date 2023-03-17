@@ -13,11 +13,8 @@ export const ButtonWrap = styled.div`
   height: 44px;
   padding: 0 40px;
   cursor: pointer;
-  /* SUNRISE / White */
   z-index: 3;
-  /* Medium Drop */
   margin-top: 30px;
-  /* box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08); */
   border: ${(props) =>
     props.version === "dark" ? "1px solid #A55C3D" : "1px solid white"};
   border-radius: 6px;
@@ -26,18 +23,11 @@ export const ButtonWrap = styled.div`
   font-weight: 700;
   font-size: 18px;
   line-height: 142.5%;
-  /* identical to box height, or 26px */
   transition: all 0.2s ease-in-out;
   text-align: center;
 
-  /* SUNRISE/Sunray */
-
-  /* color: #f5faff; */
   color: ${(props) => (props.version === "dark" ? "#A55C3D" : "#f5faff")};
-  /* &:hover {
-    -webkit-box-shadow: 5px 5px 9px 1px #48849c;
-    box-shadow: 5px 5px 9px 1px #48849c;
-  } */
+
   a {
     text-decoration: none;
     color: #035865;
