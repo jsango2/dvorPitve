@@ -17,7 +17,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import { useInView } from "react-intersection-observer";
 import Navbar from "../Navigation/navbar.js";
-import heroBg from "../../images/hero/heroBg2.png";
+import heroBg from "../../images/hero/HeroBg2.png";
 import Button from "../Button/index.js";
 
 const Hero = () => {

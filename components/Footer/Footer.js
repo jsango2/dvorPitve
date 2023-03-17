@@ -1,4 +1,14 @@
-import { HeroWrap, SingleLink, WrapImage, LinkWrap, Divider } from "./style.js";
+import {
+  HeroWrap,
+  SingleLink,
+  WrapImage,
+  LinkWrap,
+  Divider,
+  WrapBg,
+  Bottom,
+  Upper,
+  Mid,
+} from "./style.js";
 // import HeroVideo from "../../video/kraciVideo.mp4";
 import Link from "next/link";
 
@@ -10,6 +20,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 import Lottie from "lottie-react";
 import madeBySutra from "./madeBySutra";
+import Up from "../../images/footer/bg.png";
 
 const Footer = () => {
   const interactivity = {
@@ -24,6 +35,9 @@ const Footer = () => {
   };
   return (
     <HeroWrap>
+      <WrapBg>
+        <Image src={Up} alt="slider image" layout="fill" objectFit="cover" />
+      </WrapBg>
       <WrapImage>
         <Image src="/footerLogo.svg" alt="Logo" layout="fill" />
       </WrapImage>
@@ -38,6 +52,13 @@ const Footer = () => {
         <Divider />
         <SingleLink>BOOK NOW</SingleLink>
       </LinkWrap>
+      <Bottom>
+        <Upper>
+          <div>Dvor Pitve d.o.o., Pitve 20, 21465 Jelsa</div>
+          <Mid>Registarski sud: Trgovački sud u Splitu</Mid>
+          <div>IBAN: HR3823400091111175285</div>
+        </Upper>
+      </Bottom>
     </HeroWrap>
   );
 };

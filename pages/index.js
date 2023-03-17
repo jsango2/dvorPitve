@@ -18,6 +18,7 @@ import Planina from "../components/Planina";
 import OurHome from "../components/OurHome";
 import VideoAerial from "../components/VideoAerial";
 import Map from "../components/Map";
+import Contact from "../components/Contact";
 // function Profile() {
 //   if (error) return <div>failed to load</div>;
 //   if (!data) return <div>loading...</div>;
@@ -76,6 +77,7 @@ function Index() {
       <PopularDestinations />
       <PopulareBeaches />
       <Map />
+      <Contact />
       {/* <Marina />
       <Sights /> */}
       <Footer />

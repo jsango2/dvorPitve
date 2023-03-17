@@ -9,11 +9,12 @@ export const ButtonWrap = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 180px;
+  width: auto;
   height: 44px;
+  padding: 0 40px;
   cursor: pointer;
   /* SUNRISE / White */
-
+  z-index: 3;
   /* Medium Drop */
   margin-top: 30px;
   /* box-shadow: 0px 14px 23px rgba(28, 37, 44, 0.08); */
