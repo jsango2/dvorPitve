@@ -31,7 +31,7 @@ import { useInView } from "react-intersection-observer";
 // import { create } from "@lottiefiles/lottie-interactivity";
 import animacijaJson from "./animacija.json";
 import Lottie, { useLottie } from "lottie-react";
-import Bg from "../../images/ourHome/paper.svg";
+import Bg from "../../images/ourHome/paper.png";
 import Otok from "../../images/ourHome/otok.png";
 import Img1 from "../../images/ourHome/img1.png";
 import Img2 from "../../images/ourHome/img2.png";

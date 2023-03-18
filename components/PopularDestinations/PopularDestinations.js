@@ -18,7 +18,7 @@ import { destinationsList } from "./list.js";
 import Slider from "react-slick";
 import { IoIosArrowForward } from "react-icons/io";
 import { IoIosArrowBack } from "react-icons/io";
-import Bg from "../../images/ourHome/paper.svg";
+import Bg from "../../images/ourHome/paper.png";
 import photoBottom from "../../images/photoDivider.png";
 
 function NextArrow(props) {
