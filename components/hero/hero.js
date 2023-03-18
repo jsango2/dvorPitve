@@ -58,7 +58,7 @@ const Hero = () => {
           transform: `scale(${scale})`,
         }}
       >
-        <Image src={heroBg} alt="Logo" layout="fill" />
+        <Image src={heroBg} alt="Logo" layout="fill" placeholder="blur" />
       </WrapImage>
       <Navbar />
       <WrapText>

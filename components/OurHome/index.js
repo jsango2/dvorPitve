@@ -77,7 +77,7 @@ const OurHome = () => {
       <WrapText>
         <Left>
           <WrapImg1>
-            <Image src={Img1} alt="island" layout="fill" />
+            <Image src={Img1} alt="island" layout="fill" placeholder="blur" />
           </WrapImg1>
           <WrapLeftText>
             <SubTitle>Fun fact - Lavanderman</SubTitle>
@@ -98,7 +98,7 @@ const OurHome = () => {
         </Left>
         <Right>
           <WrapImg2>
-            <Image src={Img2} alt="img2" layout="fill" />
+            <Image src={Img2} alt="img2" layout="fill" placeholder="blur" />
           </WrapImg2>
           <WrapRightText>
             <SubTitle>History of Pitve</SubTitle>
@@ -122,7 +122,7 @@ const OurHome = () => {
                 will make you feel as if the time has stopped centuries ago.
               </TextRight>
               <WrapImg3>
-                <Image src={Img3} alt="img3" layout="fill" />
+                <Image src={Img3} alt="img3" layout="fill" placeholder="blur" />
               </WrapImg3>
             </WrapTextImage>
           </WrapRightText>
@@ -130,16 +130,16 @@ const OurHome = () => {
       </WrapText>
       <Bottom>
         <WrapImg4>
-          <Image src={Img4} alt="img4" layout="fill" />
+          <Image src={Img4} alt="img4" layout="fill" placeholder="blur" />
         </WrapImg4>
         <WrapImg5>
-          <Image src={Img5} alt="img5" layout="fill" />
+          <Image src={Img5} alt="img5" layout="fill" placeholder="blur" />
         </WrapImg5>
         <WrapImg6>
-          <Image src={Img6} alt="img6" layout="fill" />
+          <Image src={Img6} alt="img6" layout="fill" placeholder="blur" />
         </WrapImg6>
         <WrapImg7>
-          <Image src={Img7} alt="img7" layout="fill" />
+          <Image src={Img7} alt="img7" layout="fill" placeholder="blur" />
         </WrapImg7>
       </Bottom>
     </OurHomeWrap>

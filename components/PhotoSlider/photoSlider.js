@@ -64,6 +64,7 @@ const PhotoSlider = () => {
               alt="slider image"
               layout="fill"
               objectFit="contain"
+              placeholder="blur"
             />
           </WrapPhoto>
         ))}

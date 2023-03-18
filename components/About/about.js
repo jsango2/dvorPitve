@@ -126,7 +126,7 @@ const About = () => {
           }}
         >
           {" "}
-          <Image src={img1} layout="fill" alt="image1" />
+          <Image src={img1} layout="fill" alt="image1" placeholder="blur" />
         </Image1>
         <Image2
           style={{
@@ -134,7 +134,7 @@ const About = () => {
           }}
         >
           {" "}
-          <Image src={img2} layout="fill" alt="image2" />
+          <Image src={img2} layout="fill" alt="image2" placeholder="blur" />
         </Image2>
         <Image4
           style={{
@@ -144,7 +144,7 @@ const About = () => {
           }}
         >
           {" "}
-          <Image src={img4} layout="fill" alt="image4" />
+          <Image src={img4} layout="fill" alt="image4" placeholder="blur" />
         </Image4>
         <Image3
           style={{
@@ -152,7 +152,7 @@ const About = () => {
           }}
         >
           {" "}
-          <Image src={img3} layout="fill" alt="image3" />
+          <Image src={img3} layout="fill" alt="image3" placeholder="blur" />
         </Image3>
       </WrapImages>
     </AboutWrap>

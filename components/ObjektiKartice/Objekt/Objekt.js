@@ -35,7 +35,13 @@ const Objekt = ({
     <WrapObjekt onClick={() => handleClicked(id)}>
       <WrapImage>
         {" "}
-        <Image src={photo} alt="house" layout="fill" objectFit="cover" />
+        <Image
+          src={photo}
+          alt="house"
+          layout="fill"
+          objectFit="cover"
+          placeholder="blur"
+        />
         <WrapGalleryLink>
           {" "}
           <Image
