@@ -4,7 +4,6 @@ import Layout from "../components/layout";
 import { useRouter } from "next/router";
 
 import About from "../components/About/about";
-import Marina from "../components/MarinaSection/Marina";
 import Sights from "../components/Sights/Sights";
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";

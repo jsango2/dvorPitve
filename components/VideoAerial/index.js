@@ -11,13 +11,15 @@ const VideoAerial = () => {
     triggerOnce: false,
   });
   return (
-    <Wrap>
-      <ReactPlayer
-        url="/desktop.mov"
-        controls="true"
-        width="100%"
-        height="100%"
-      />
+    <Wrap ref={ref}>
+      {inView && (
+        <ReactPlayer
+          url="/desktop.mov"
+          controls="true"
+          width="100%"
+          height="100%"
+        />
+      )}
     </Wrap>
   );
 };
