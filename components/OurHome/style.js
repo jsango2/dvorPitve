@@ -82,7 +82,7 @@ export const WrapText = styled.div`
   justify-content: space-between;
   margin: 90px auto 0 auto;
   width: 92%;
-
+  min-width: 1600px;
   @media only screen and (max-width: 1900px) {
   }
   @media only screen and (max-width: 450px) {
@@ -242,6 +242,7 @@ export const Bottom = styled.div`
   display: flex;
   height: 535px;
   width: 92%;
+  min-width: 1600px;
   justify-content: space-between;
   margin: 0 auto;
   @media only screen and (max-width: 1900px) {

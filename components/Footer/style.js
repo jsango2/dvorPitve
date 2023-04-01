@@ -74,6 +74,20 @@ export const WrapBg = styled.div`
   @media only screen and (max-width: 450px) {
   }
 `;
+export const WrapImageDown = styled.div`
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 3;
+  transition: all 10s ease-out;
+
+  top: ${(props) => (props.inView ? ` -30px;` : `0px;`)};
+  @media only screen and (max-width: 1050px) {
+  }
+  @media only screen and (max-width: 450px) {
+  }
+`;
 
 export const Bottom = styled.div`
   position: absolute;

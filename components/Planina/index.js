@@ -31,27 +31,47 @@ const Planina = () => {
             <ul>
               <li>
                 <b>Hiking on the nearby mountains</b> - To the highest peak of
-                the island of Hvar, Sv. Nikola (626 meters)
+                the island of Hvar,
+                <a href="https://goo.gl/maps/JiFtXMaiAnvEofVP6">
+                  {" "}
+                  Sv. Nikola{" "}
+                </a>{" "}
+                (626 meters)
               </li>
               <li>
-                <b>Free climbing </b> // Pitve free climbing route and numerous
-                other nearby locations with maintained climbing routes, e.g. Sv.
-                Nedjelja
+                <b>Free climbing </b> // Pitve free climbing route and{" "}
+                <a href="https://www.hvarclimbing.com">
+                  numerous other nearby locations
+                </a>{" "}
+                with maintained climbing routes, e.g. Sv. Nedjelja
               </li>
               <li>
-                <b>Cycling paths throughout the island </b> // Bike tour by Hvar
-                Adventures
+                <b>Cycling paths throughout the island </b> // Bike tour by{" "}
+                <a href="https://hvar-adventure.com/hvar-cycling-tour-new/#">
+                  Hvar Adventure
+                </a>
               </li>
             </ul>
           </Col>
           <Col>
             <ul>
-              <li>Diving in Jelsa and Vrboska // Black Pearl Diving Center</li>
-              <li>Fish trip or rent a boat in Jelsa</li>
-              <li>Medvid Bod cave trip, snorkeling and swimming</li>
+              <li>
+                Diving in Jelsa and Vrboska //
+                <a href="https://www.tripadvisor.com/Attraction_Review-g659962-d7745431-Reviews-Scuba_Diving_Black_Pearl-Jelsa_Hvar_Island_Split_Dalmatia_County_Dalmatia.html">
+                  Black Pearl Diving Center
+                </a>{" "}
+              </li>
+              <li>
+                Fish trip or rent a boat{" "}
+                <a href="https://visitjelsa.hr/en/">in Jelsa</a>
+              </li>
+              <li>
+                <a href="https://goo.gl/maps/RsGo7pHFdpzcGsTY7">Medvid Bod</a>{" "}
+                cave trip, snorkeling and swimming
+              </li>
               <li>
                 Wine tasting // Try the finest variety of island grapes, e.g.
-                Tomić Winery
+                <a href="https://vina-tomic.com/en/">Tomić Winery</a>
               </li>
             </ul>
           </Col>
@@ -67,8 +87,11 @@ const Planina = () => {
               <li>Yoga classes by the sea</li>
               <li>
                 {" "}
-                Driving through an unique narrow, dark tunnel which connects the
-                south and north sides of the island
+                Driving through an unique narrow,{" "}
+                <a href="https://goo.gl/maps/RGM8G3YisXPuMD8L6">
+                  dark tunnel
+                </a>{" "}
+                which connects the south and north sides of the island
               </li>
               <li>Grape harvest // September</li>
             </ul>

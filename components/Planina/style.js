@@ -44,7 +44,7 @@ export const WrapPlaninaDown = styled.div`
 
   bottom: 0;
   width: 100%;
-  height: 1117px;
+  height: 617px;
   z-index: 3;
 
   font-style: normal;
@@ -106,6 +106,12 @@ export const WrapCol = styled.div`
   line-height: 142.5%;
   text-align: center;
   display: flex;
+  a {
+    text-decoration: none;
+    color: #303145;
+    font-weight: 700;
+    cursor: pointer;
+  }
 
   @media only screen and (max-width: 1050px) {
   }
